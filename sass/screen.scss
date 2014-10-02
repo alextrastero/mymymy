@@ -1,0 +1,31 @@
+@import "base";
+
+body{
+  font-size: golden-ratio(14px,  1);
+  color: #333333;
+}
+
+header{
+  @include linear-gradient(to top, red, orange);
+  height: 80px;
+  line-height: 30px;
+  padding: 30px;
+  nav{
+    a{
+      text-decoration: none;
+      color: $link;
+      &.active{
+        color: $link-active;
+      }
+      &:hover{
+        color: $link-hover;
+      }
+    }
+  }
+}
+
+footer{
+  @include border-top-radius(5px);
+  height: 40px;
+  background: #333333;
+}

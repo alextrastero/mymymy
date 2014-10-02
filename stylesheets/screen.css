@@ -1,0 +1,14 @@
+/* line 3, ../sass/screen.scss */
+body { font-size: 22.652px; color: #333333; }
+
+/* line 8, ../sass/screen.scss */
+header { background-color: red; background-image: -webkit-linear-gradient(bottom, red, orange); background-image: linear-gradient(to top,red, orange); height: 80px; line-height: 30px; padding: 30px; }
+/* line 14, ../sass/screen.scss */
+header nav a { text-decoration: none; color: orange; }
+/* line 17, ../sass/screen.scss */
+header nav a.active { color: yellow; }
+/* line 20, ../sass/screen.scss */
+header nav a:hover { color: red; }
+
+/* line 27, ../sass/screen.scss */
+footer { border-top-left-radius: 5px; border-top-right-radius: 5px; height: 40px; background: #333333; }
