@@ -1,12 +1,19 @@
 %header
-  .logo
-    %h1
-      Hostal El An&oacute;n
-  .sub-logo
-    %p
-      Hostal | Restaurante | Bar
-    %hr/
-    %p
-      Jimena de la Frontera
+  .top-header
+    .logo
+      %h1
+        Hostal El An&oacute;n
+    .sub-logo
+      %p
+        Hostal | Restaurante | Bar
+      %hr/
+      %p
+        Jimena de la Frontera
+      %address
+        Calle Consuelo 34
+        %br/
+        Tel: +34 956 640 113
+        %br/
+        %a{:href => "mailto:reservas@elanon.net"} reservas@elanon.net
   %nav.main-menu
     = render :partial => "/layouts/links"
