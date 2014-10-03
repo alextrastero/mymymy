@@ -1,4 +1,10 @@
 @import "../bourbon/bourbon";
-$link: orange;
-$link_hover: red;
-$link_active: yellow;
+$text-color: #333333;
+$link: $text-color;
+$link-hover: #ffffff;
+$link-active: #ffffff;
+
+$link-bg-hover: #62877d;
+$link-bg-active: #62877d;
+
+$sidebar_width: 220px;

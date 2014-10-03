@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 %html{:lang => "en"}
   %head
-    = render :partial => "head"
+    = render :partial => "/layouts/head"
   %body
-    = render :partial => "header"
-    = yield
-    = render :partial => "footer"
+    .container.row
+      .sidebar
+        = render :partial => "/layouts/header"
+        = render :partial => "/layouts/footer"
+      .main
+        = yield
     =livereload_js
